@@ -6,7 +6,7 @@
     <None Remove="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Intuit.Ipp.Diagnostics\Intuit.Ipp.Diagnostics.csproj" />
@@ -28,6 +28,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Update="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Update="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>
